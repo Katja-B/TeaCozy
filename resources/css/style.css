@@ -45,6 +45,11 @@ nav a:link {
 	text-decoration:underline;
 	}
 	
+nav a:visited {
+	color: seashell;
+	text-decoration:underline;
+	}
+	
 main {
 	display: flex;
 	flex-direction:column;
@@ -143,4 +148,30 @@ main {
 	margin-right: 40px;
 	margin-top: 15px;
 	padding-bottom: 20px;
+	}
+	
+footer {
+	display: block;
+	position: relative;
+	padding-top: 60px;
+	}
+	
+#contact {
+	height: 200px;
+	}
+	
+#copyright h5 {
+	text-align: left;
+	margin-left: 20px;
+	margin-top: 0;
+	}
+	
+footer a:link {
+	color: seashell;
+	text-decoration: none;
+	}
+	
+footer a:visited {
+	color: seashell;
+	text-decoration: none;
 	}
