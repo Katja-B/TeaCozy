@@ -8,8 +8,108 @@ body {
 	font-size: 22px;
 	opacity: 0.9;
 	text-align:center;
+	margin: 0;
 	}
 	
 header {
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	position:fixed;
+	border-bottom: 1px solid seashell;
+	width: 100%;
+	z-index: 1;
+	background-color: black;
+	top: 0;
+	margin-left: 0;
+	padding-left: 0;
+	}
 	
+#logo {
+	height: 50px;
+	margin: 9px 10px;
+	}
+	
+nav {
+	padding-right: 10px;
+	}
+	
+nav li {
+	display: inline-block;
+	text-align:center;
+	padding-right: 20px;
+	}
+	
+nav a:link {
+	color: seashell;
+	text-decoration:underline;
+	}
+	
+main {
+	display: flex;
+	flex-direction:column;
+	justify-content: space-around;
+	align-items: center;
+	position: relative;
+	top: 69px;
+	}
+	
+#mission {
+	display:flex;
+	flex-direction:column;
+	background-image:url(../images/img-mission-background.jpeg);
+	background-size: 1200px 700px;
+	background-repeat: no-repeat;
+	height: 700px;
+	width: 1200px;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 60px;
+	}
+	
+#missioncopy {
+	background-color: black;
+	width: 100%;
+	margin-top: 0;
+	padding-top: 0;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	}
+	
+#missioncopy h2 {
+	margin-top: 10px;
+	padding: 0;
+	margin-bottom: 0;
+	}
+	
+#missioncopy h4 {
+	margin-top: 20px;
+	padding: 0;
+	margin-bottom: 10px;
+	}
+	
+#feature {
+	display: flex;
+	flex-direction: column;
+	
+	}
+	
+#teaimg {
+	width: 1000px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between; 
+	}
+	
+.flavorimg {
+	height: 200px;
+	width: 300px;
+	padding-bottom: 10px;
+	margin-bottom: 0;
+	}
+	
+.flavor h4 {
+	margin-top: 0;
+	padding-top: 0;
 	}
